@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
 
 
-    <title>Good Morning</title>
+    <title>Hello MCS Students</title>
 
 
     <style>
@@ -20,16 +20,25 @@
         body {
 
 
-            background-color: #f9f9f9;
+            background-color: #e6f7ff; /* Light blue background */
 
 
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', sans-serif;
 
 
-            text-align: center;
+            display: flex;
 
 
-            padding-top: 100px;
+            justify-content: center;
+
+
+            align-items: center;
+
+
+            height: 100vh;
+
+
+            margin: 0;
 
 
         }
@@ -38,31 +47,16 @@
 
 
 
-        .morning-message {
+        .message {
 
 
-            color: #FFA500; /* Orange */
+            color: #0066cc; /* Blue text */
 
 
             font-size: 48px;
 
 
             font-weight: bold;
-
-
-        }
-
-
-
-
-
-        .subtext {
-
-
-            color: #555;
-
-
-            font-size: 24px;
 
 
         }
@@ -80,10 +74,7 @@
 
 
 
-    <div class="morning-message">Good Morning!</div>
-
-
-    <div class="subtext">Wishing you a bright and beautiful day ☀️</div>
+    <div class="message">Hello MCS Students!</div>
 
 
 
